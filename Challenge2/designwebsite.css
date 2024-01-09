@@ -1,0 +1,68 @@
+.menuBar{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-right: 164px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 60px;
+}
+.item{
+    font-weight: 400;
+}
+.mainTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding: 162px 0 0 0;
+}
+.smallTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 879px 0 0;
+    padding:0 0 73px 0;
+} 
+.content{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    color:#FFFFFF;
+}
+.buttonGetStarted{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color:#FFFFFF;
+    border: 2px solid;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 12px 24px 11px 23px;
+}
+.itemHome{
+    border: 2px solid;
+    border-radius: 120px;
+    padding: 11px 55px 12px 55px;
+}
+.page{
+    margin: 79px 164px 404px 161px;
+}
+.menu{
+    display: flex;
+    align-items:center;
+}
+.logo{
+    padding-right: 50%;
+}
