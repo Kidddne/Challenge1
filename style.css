@@ -21,7 +21,7 @@ body{
 }
 .image{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 .nameDescription{
     padding: 21px 27px 36px 21px;
