@@ -12,7 +12,6 @@ body  {
     line-height: 29px;
     color: #FFFFFF;
     display: flex;
-    padding:0 164px 0 0;
     align-items: center;
     gap: 60px;
 }
@@ -24,27 +23,27 @@ body  {
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    padding: 162px 0 0 0;
+    margin-bottom: 30px;
 }
 .smallTitle{
     font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
+    margin-bottom: 30px;
 }
 .text{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    margin: 0 879px 0 0;
-    padding:0 0 73px 0;
+    margin-bottom: 73px;
 } 
 .content{
     display:flex;
     flex-direction: column;
-    gap: 30px;
     color:#FFFFFF;
+    max-width: 880px;
 }
 .buttonGetStarted{
     font-family: 'Inter', sans-serif;
@@ -63,12 +62,14 @@ body  {
     padding: 11px 55px 12px 55px;
 }
 .page{
-    margin: 79px 164px 404px 161px;
+    max-width: 1595px;
+    margin: 0 auto;
+    padding-top: 79px;
 }
 .menu{
     display: flex;
     align-items:center;
-}
-.logo{
-    padding-right: 50%;
+    justify-content: space-between;
+    margin-bottom: 162px;
+
 }
