@@ -1,12 +1,18 @@
+body  {
+    background-image: url("./images/bg-banner.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .menuBar{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
     color: #FFFFFF;
-    padding-right: 164px;
     display: flex;
-    justify-content:right;
+    padding:0 164px 0 0;
     align-items: center;
     gap: 60px;
 }
