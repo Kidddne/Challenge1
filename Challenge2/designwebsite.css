@@ -6,7 +6,7 @@ body  {
     background-size: cover;
 }
 .menuBar{
-    font-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;    
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -19,21 +19,18 @@ body  {
     font-weight: 400;
 }
 .mainTitle{
-    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     margin-bottom: 30px;
 }
 .smallTitle{
-    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
     margin-bottom: 30px;
 }
 .text{
-    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -44,6 +41,7 @@ body  {
     flex-direction: column;
     color:#FFFFFF;
     max-width: 880px;
+    font-family: 'Inter', sans-serif;
 }
 .buttonGetStarted{
     font-family: 'Inter', sans-serif;
