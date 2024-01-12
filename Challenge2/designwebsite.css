@@ -14,7 +14,6 @@ font-family: 'Inter', sans-serif;
     display: flex;
     align-items: center;
     gap: 60px;
-    cursor: pointer;
 }
 .item{
     font-weight: 400;
@@ -60,6 +59,7 @@ font-family: 'Inter', sans-serif;
     border: 2px solid;
     border-radius: 120px;
     padding: 11px 55px 12px 55px;
+    cursor: pointer;
 }
 .page{
     max-width: 1595px;
