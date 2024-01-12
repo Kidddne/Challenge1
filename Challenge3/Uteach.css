@@ -1,14 +1,19 @@
-.header{
+.page{
+    color:#0F172A;
+    font-family: 'Roboto';
+    padding: 24px 80px 80px 80px;
+}
+.pageHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 80px 0 80px;
+    padding-bottom: 114px;
 }
 .leftMenuBar{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:48px;
+    gap: 48px;
 }
 .menuIcon
 {
@@ -16,13 +21,11 @@
     gap: 2px;
 }
 .iconName{
-    font-family: 'Roboto';
     font-size: 32px;
     font-weight: 700;
     line-height: 35px;
-    color: #0F172A;
 }
-.items{
+.listItems{
     display: flex;
     gap:48px;
 }
@@ -30,115 +33,98 @@
     display: flex;
     gap:8px;
 }
-.itemName{
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-color: #0F172A;
+.item{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 .rightMenuBar{
     display: flex;
     flex-direction: row;
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-align-items: center;
-gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    gap: 16px;
 }
-.sunBorder{
+.btnLogIn{
+    padding:12px 8px 12px 8px;
+}
+.pageHeader .btnSignUpNow{
     border: 2px solid;
-    border-color: #0F172A;
     border-radius: 8px;
     padding: 12px 28px 12px 28px;
 }
-.body{
+.pageBody{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 80px;
-    margin: 0 auto;
-    margin: 0 80px 0 80px;
-    padding-top: 80px;
 }
-.title{
-font-family: 'Roboto';
-font-size: 72px;
-font-weight: 800;
-line-height: 79px;
-color: #0F172A;
-display: flex;
-flex-direction: row;
+.mainTitle{
+    padding-bottom: 32px;
+    position: relative;
 }
 .textTitle{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 79px;
     position: relative;
     z-index: 1;
 }
 .underLineImg{
     position: absolute;
-    margin-top: 63px;
-
+    padding-top: 63px;
+    top:0;
 }
 .description{
-font-family: 'Roboto';
-font-size: 24px;
-font-weight: 400;
-line-height: 38px;
-color: #0F172A;
-padding-top: 32px;
-width: 575.4px;
-height: 114px;
-
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-bottom: 32px;
+    width: 575.4px;
+    height: 114px;
 }
-.contentButton{
+.wrapButton{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 32px;
+    padding-bottom: 80px;
     gap:32px;
 }
-.sunButton{
+.pageBody .btnSignUpNow{
     border: 2px;
     border-radius: 8px;
     background-color: #EA580C;
     padding: 20px 48px 20px 48px;
-    font-family: 'Roboto';
-font-size: 24px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.5px;
-color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
-.vdButton{
+.btnVideoDemo{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row;        
+    padding: 16px 8px 16px 8px;
 }
-.vd{
-font-family: 'Roboto';
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-border: 0px;
-padding: 0 16px 0 16px;
-color: #2563EB;
+.textVideoDemo{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    border: 0px;
+    padding: 0 16px 0 16px;
+    color: #2563EB;
 }
-.icons{
-    padding-top: 80px;
+.logo{
     display: flex;
     flex-direction: row;
     gap: 48px;
 }
-.source{
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-color: #475569;
-}
-.decoImg{
-    width: 624.6px;
-    height: 544.53px;
+.logo .text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #475569;
 }
