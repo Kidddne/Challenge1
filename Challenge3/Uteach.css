@@ -1,130 +1,134 @@
-.page{
-    color:#0F172A;
-    font-family: 'Roboto';
-    padding: 24px 80px 80px 80px;
+.page {
+  color: #0f172a;
+  font-family: "Roboto";
+  padding: 24px 80px 80px 80px;
 }
-.pageHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 114px;
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 114px;
 }
-.leftMenuBar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 48px;
+.leftMenuBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  cursor: pointer;
 }
-.menuIcon
-{
-    display: flex;
-    gap: 2px;
+.menuIcon {
+  display: flex;
+  gap: 2px;
 }
-.iconName{
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 35px;
+.iconName {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
 }
-.listItems{
-    display: flex;
-    gap:48px;
+.listItems {
+  display: flex;
+  gap: 48px;
 }
-.resourceDown{
-    display: flex;
-    gap:8px;
+.resourceDown {
+  display: flex;
+  gap: 8px;
 }
-.item{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+.item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
-.rightMenuBar{
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    align-items: center;
-    gap: 16px;
+.rightMenuBar {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
 }
-.btnLogIn{
-    padding:12px 8px 12px 8px;
+.btnLogIn {
+  padding: 12px 8px 12px 8px;
 }
-.pageHeader .btnSignUpNow{
-    border: 2px solid;
-    border-radius: 8px;
-    padding: 12px 28px 12px 28px;
+.pageHeader .btnSignUpNow {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 12px 28px 12px 28px;
 }
-.pageBody{
-    display: flex;
-    justify-content: space-between;
-    gap: 80px;
+.pageBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
 }
-.mainTitle{
-    padding-bottom: 32px;
-    position: relative;
+.mainTitle {
+  padding-bottom: 32px;
+  position: relative;
 }
-.textTitle{
-    font-size: 72px;
-    font-weight: 800;
-    line-height: 79px;
-    position: relative;
-    z-index: 1;
+.textTitle {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 79px;
+  position: relative;
+  z-index: 1;
 }
-.underLineImg{
-    position: absolute;
-    padding-top: 63px;
-    top:0;
+.underLineImg {
+  position: absolute;
+  padding-top: 63px;
+  top: 0;
 }
-.description{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 38px;
-    padding-bottom: 32px;
-    width: 575.4px;
-    height: 114px;
+.description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-bottom: 32px;
+  width: 575.4px;
+  height: 114px;
 }
-.wrapButton{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 80px;
-    gap:32px;
+.wrapButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 32px;
 }
-.pageBody .btnSignUpNow{
-    border: 2px;
-    border-radius: 8px;
-    background-color: #EA580C;
-    padding: 20px 48px 20px 48px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #FFFFFF;
+.pageBody .btnSignUpNow {
+  border: 2px;
+  border-radius: 8px;
+  background-color: #ea580c;
+  padding: 20px 48px 20px 48px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  cursor: pointer;
 }
-.btnVideoDemo{
-    display: flex;
-    flex-direction: row;        
-    padding: 16px 8px 16px 8px;
+.btnVideoDemo {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 8px 16px 8px;
+  cursor: pointer;
 }
-.textVideoDemo{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    border: 0px;
-    padding: 0 16px 0 16px;
-    color: #2563EB;
+.textVideoDemo {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  border: 0px;
+  padding: 0 16px 0 16px;
+  color: #2563eb;
 }
-.logo{
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
 }
-.logo .text{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #475569;
+.logo .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #475569;
 }
