@@ -40,11 +40,13 @@
 }
 .leftMenuBar .item {
   font-family: Ageo700;
+  cursor: pointer;
 }
 .rightMenuBar {
   display: flex;
   gap: 22px;
   align-items: center;
+  cursor: pointer;
 }
 .btnSignUp {
   border-radius: 10px;
@@ -86,12 +88,14 @@
   background: #f60;
   padding: 11px 34px 9px;
   color: #fff;
+  cursor: pointer;
 }
 .btnLearnMore {
   display: flex;
   align-items: center;
   gap: 25px;
   font-family: Ageo700;
+  cursor: pointer;
 }
 .pageTitle .img {
   padding-top: 26px;
@@ -173,6 +177,7 @@
   line-height: 28.5px; /* 158.333% */
   padding: 11px 36px 9px;
   font-family: Ageo500;
+  cursor: pointer;
 }
 
 .pageFontDM-Sans {
@@ -214,6 +219,7 @@
   font-weight: 500;
   line-height: 22px; /* 137.5% */
   width: fit-content;
+  cursor: pointer;
 }
 .listTestmonitalsTags {
   padding-bottom: 142px;
@@ -317,15 +323,18 @@
   border-top: 2px solid var(--Colors-Grey, #ebeaed);
   border-right: 2px solid var(--Colors-Grey, #ebeaed);
   padding: 18px 53px;
+  cursor: pointer;
 }
 .listOurTeamTags .img2 {
   border-top: 2px solid var(--Colors-Grey, #ebeaed);
   padding: 18px 48px;
+  cursor: pointer;
 }
 .listOurTeamTags .img3 {
   border-top: 2px solid var(--Colors-Grey, #ebeaed);
   border-left: 2px solid var(--Colors-Grey, #ebeaed);
   padding: 18px 53px;
+  cursor: pointer;
 }
 .pageFontRoboto {
   font-family: "Roboto";
@@ -378,6 +387,7 @@
   font-family: Ageo500;
   font-size: 18px;
   padding: 11px 249px 9px 249px;
+  cursor: pointer;
 }
 .pageFooter {
   font-family: "DM Sans", sans-serif;
