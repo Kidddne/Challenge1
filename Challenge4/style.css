@@ -20,6 +20,7 @@
 .pageFontAgeo {
   font-family: Ageo500;
   color: #000;
+  line-height: 28.5px;
 }
 .pageMenuBar {
   display: flex;
@@ -80,10 +81,9 @@
   display: flex;
   font-size: 18px;
   gap: 28px;
+  align-items: center;
 }
 .btnGetStarted {
-  display: flex;
-  align-items: center;
   border-radius: 10px;
   background: #f60;
   padding: 11px 34px 9px;
@@ -131,7 +131,7 @@
   color: #000;
   font-size: 18px;
   padding-bottom: 181px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .listServiceTags .tag {
   display: flex;
@@ -276,7 +276,7 @@
 }
 .listOurTeamTags {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   font-family: "DM Sans", sans-serif;
   padding-bottom: 110px;
