@@ -15,7 +15,7 @@
   src: url("../Challenge4/font/AgeoTrial-Regular.ttf") format("truetype");
 }
 .allPage {
-  margin: 48px 135px 0 135px;
+  margin: 48px 135px 0;
 }
 .pageFontAgeo {
   font-family: Ageo500;
@@ -24,36 +24,38 @@
 }
 .pageMenuBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 114px;
   align-items: center;
+  width: 1170px;
   color: #000;
   font-size: 18px;
-  line-height: 28.5px; /* 158.333% */
+  margin: 0 auto;
 }
-.leftMenuBar {
+.right {
   display: flex;
-  gap: 114px;
+  font-size: 18px;
+  align-items: center;
+  gap: 250px;
 }
-.listItems {
+.right .listItems {
   display: flex;
   gap: 40px;
-  align-items: center;
 }
-.leftMenuBar .item {
-  font-family: Ageo700;
-  cursor: pointer;
-}
-.rightMenuBar {
+.right .btnMenuBar {
   display: flex;
   gap: 22px;
   align-items: center;
-  cursor: pointer;
 }
-.btnSignUp {
+.right .listItems .item {
+  font-family: Ageo700;
+}
+.right .btnMenuBar .btnSignUp {
   border-radius: 10px;
   background: #f60;
-  padding: 10px 29px 10px 30px;
   color: #fff;
+  font-weight: 500;
+  padding: 10px 29px 10px 30px;
 }
 .pageTitle {
   display: flex;
@@ -100,9 +102,9 @@
 .pageTitle .img {
   padding-top: 26px;
 }
-.page2 {
-  font-family: Ageo500;
-  color: #000;
+.container {
+  width: 1170px;
+  margin: 0 auto;
 }
 .pageName {
   display: flex;
@@ -185,8 +187,10 @@
 }
 .content {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  gap: 159.22px;
   padding-bottom: 146px;
+  width: 1170px;
 }
 .contentTitle {
   color: var(--Colors-Heading, #1e0e62);
@@ -374,11 +378,12 @@
     0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04),
     0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05),
     0px 100px 80px 0px rgba(0, 0, 0, 0.07);
-  text-align: center;
   font-size: 24px;
   font-weight: 400;
   line-height: 28.5px; /* 118.75% */
   padding: 24px 440px 24px 67px;
+  display: flex;
+  width: 193px;
 }
 .btnSubscribeOurNewsletter {
   border-radius: 10px;
@@ -388,6 +393,7 @@
   font-size: 18px;
   padding: 11px 249px 9px 249px;
   cursor: pointer;
+  line-height: 28.5px;
 }
 .pageFooter {
   font-family: "DM Sans", sans-serif;
@@ -404,6 +410,10 @@
   color: var(--Colors-Heading, #1e0e62);
   border-bottom: 2px solid var(--Colors-Grey, #ebeaed);
   padding-bottom: 31px;
+}
+.pageFooter .listItems {
+  display: flex;
+  gap: 30px;
 }
 .logo {
   display: flex;
