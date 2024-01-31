@@ -61,10 +61,15 @@
 }
 .pageTitle {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 153px;
 }
 .wrapText {
   padding-top: 114px;
+  position: relative;
+  z-index: 1;
 }
 .pageTitle .mainTitle {
   color: #0b1b35;
@@ -107,6 +112,9 @@
 }
 .pageTitle .img {
   padding-top: 26px;
+  position: absolute;
+  z-index: 2;
+  left: 660px;
 }
 .container {
   width: 1170px;
@@ -433,6 +441,5 @@
   /* Text / Paragraph */
   display: flex;
   justify-content: center;
-
   padding: 40px 320px 41px 1px;
 }
