@@ -14,9 +14,7 @@
   font-family: Ageo500;
   src: url("../Challenge4/font/AgeoTrial-Regular.ttf") format("truetype");
 }
-.allPage {
-  margin: 48px 135px 0;
-}
+
 .pageFontAgeo {
   font-family: Ageo500;
   color: #000;
@@ -32,30 +30,34 @@
   font-size: 18px;
   margin: 0 auto;
 }
-.right {
+.rightMenuBar {
   display: flex;
   font-size: 18px;
   align-items: center;
   gap: 250px;
 }
-.right .listItems {
+.rightMenuBar .listItems {
   display: flex;
   gap: 40px;
 }
-.right .btnMenuBar {
+.rightMenuBar .btnMenuBar {
   display: flex;
   gap: 22px;
   align-items: center;
 }
-.right .listItems .item {
+.rightMenuBar .listItems .item {
   font-family: Ageo700;
 }
-.right .btnMenuBar .btnSignUp {
+.rightMenuBar .btnMenuBar .btnSignUp {
   border-radius: 10px;
-  background: #f60;
+  background-color: #f60;
   color: #fff;
   font-weight: 500;
   padding: 10px 29px 10px 30px;
+  cursor: pointer;
+}
+.rightMenuBar .btnMenuBar .btnSignUp:hover {
+  background-color: rgb(217, 88, 2);
 }
 .pageTitle {
   display: flex;
@@ -92,6 +94,10 @@
   color: #fff;
   cursor: pointer;
 }
+.btnGetStarted:hover {
+  background-color: rgb(217, 88, 2);
+}
+
 .btnLearnMore {
   display: flex;
   align-items: center;
@@ -181,7 +187,9 @@
   font-family: Ageo500;
   cursor: pointer;
 }
-
+.listServiceTags .tagBtn:hover {
+  background-color: rgb(217, 88, 2);
+}
 .pageFontDM-Sans {
   font-family: "DM Sans", sans-serif;
 }
@@ -280,7 +288,6 @@
 }
 .listOurTeamTags {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
   font-family: "DM Sans", sans-serif;
   padding-bottom: 110px;
@@ -346,22 +353,21 @@
 }
 .pageFontRoboto .content {
   display: flex;
-  justify-content: space-between;
-  gap: 114.52px;
+  gap: 49px;
 }
 .pageFontRoboto .contentText {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .pageFontRoboto .text {
   font-size: 18px;
   font-weight: 400;
   line-height: 28.5px; /* 158.333% */
-  width: 684px;
-  height: 78px;
   padding-bottom: 23px;
+  padding-left: 12px;
+  height: 78px;
 }
 .pageFontRoboto .btn {
   display: flex;
@@ -381,9 +387,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28.5px; /* 118.75% */
-  padding: 24px 440px 24px 67px;
-  display: flex;
-  width: 193px;
+  padding: 24px 0 24px 67px;
 }
 .btnSubscribeOurNewsletter {
   border-radius: 10px;
@@ -404,16 +408,18 @@
 }
 .online {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
   align-items: center;
   gap: 141px;
   color: var(--Colors-Heading, #1e0e62);
   border-bottom: 2px solid var(--Colors-Grey, #ebeaed);
+  width: 1170px;
   padding-bottom: 31px;
 }
 .pageFooter .listItems {
   display: flex;
-  gap: 30px;
+  gap: 39px;
+  width: 455px;
 }
 .logo {
   display: flex;
@@ -422,7 +428,11 @@
   align-items: center;
 }
 .lastWord {
-  padding-top: 40px;
+  border: none;
   color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
   /* Text / Paragraph */
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 320px 41px 1px;
 }
