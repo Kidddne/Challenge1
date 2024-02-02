@@ -29,6 +29,7 @@
   color: #000;
   font-size: 18px;
   margin: 0 auto;
+  padding-top: 48px;
 }
 .rightMenuBar {
   display: flex;
@@ -64,10 +65,10 @@
   margin: 0 auto;
   width: 1170px;
   margin: 0 auto;
-  padding-bottom: 153px;
+  margin-bottom: 153px;
 }
 .wrapText {
-  padding-top: 114px;
+  margin-top: 114px;
   position: relative;
   z-index: 1;
 }
@@ -78,11 +79,11 @@
   line-height: 81px; /* 115.714% */
   width: 653px;
   height: 260px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
-.description {
+.pageTitle .description {
   font-size: 22px;
-  padding-bottom: 61px;
+  margin-bottom: 61px;
   width: 555px;
   height: 62px;
 }
@@ -111,7 +112,7 @@
   cursor: pointer;
 }
 .pageTitle .img {
-  padding-top: 26px;
+  margin-top: 26px;
   position: absolute;
   z-index: 2;
   left: 660px;
@@ -130,7 +131,7 @@
   font-family: Ageo700;
   font-size: 14px;
   letter-spacing: 6.3px;
-  padding-bottom: 19px;
+  margin-bottom: 19px;
   display: flex;
   align-items: center;
 }
@@ -138,7 +139,7 @@
   color: #0b1b35;
   font-family: Ageo700;
   font-size: 52px;
-  padding-bottom: 108px;
+  margin-bottom: 108px;
   width: fit-content;
 }
 .listServiceTags {
@@ -146,7 +147,7 @@
   gap: 57px;
   color: #000;
   font-size: 18px;
-  padding-bottom: 181px;
+  margin-bottom: 181px;
   justify-content: space-between;
 }
 .listServiceTags .tag {
@@ -161,8 +162,7 @@
     0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04),
     0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05),
     0px 100px 80px 0px rgba(0, 0, 0, 0.07);
-  width: 352px;
-  height: 508px;
+  padding: 0 41px 35px;
 }
 .listServiceTags .img {
   margin-top: 30.53px;
@@ -175,15 +175,15 @@
   font-family: Ageo700;
   font-size: 36px;
   line-height: 28.5px; /* 79.167% */
-  padding-top: 41px;
-  padding-bottom: 32px;
+  margin-top: 41px;
+  margin-bottom: 32px;
 }
 .listServiceTags .tagDescription {
   text-align: center;
   line-height: 28.5px; /* 158.333% */
   width: 270px;
   height: 187px;
-  padding-bottom: 18px;
+  margin-bottom: 18px;
   font-family: Ageo400;
 }
 .listServiceTags .tagBtn {
@@ -205,7 +205,7 @@
   display: flex;
   margin: 0 auto;
   gap: 159.22px;
-  padding-bottom: 146px;
+  margin-bottom: 146px;
   width: 1170px;
 }
 .contentTitle {
@@ -214,7 +214,7 @@
   font-size: 22px;
   font-weight: 500;
   line-height: 32px; /* 145.455% */
-  padding-bottom: 20.51px;
+  margin-bottom: 20.51px;
   width: 303.959px;
   height: 77.196px;
 }
@@ -226,7 +226,7 @@
   line-height: 26px; /* 162.5% */
   width: 322.052px;
   height: 125.443px;
-  padding-bottom: 72.13px;
+  margin-bottom: 72.13px;
 }
 .btnExplore {
   border-radius: 100px;
@@ -242,7 +242,7 @@
   cursor: pointer;
 }
 .listTestmonitalsTags {
-  padding-bottom: 142px;
+  margin-bottom: 142px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,7 +250,7 @@
 .topUser {
   display: flex;
   gap: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .bottomUser {
   display: flex;
@@ -268,14 +268,14 @@
   border-radius: 10px;
   width: 70px;
   height: 70px;
-  margin: 36px 0 0 35px;
+  padding: 36px 0 0 35px;
 }
 .comment {
   color: #0b1b35;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 35px 28px 23px 0;
+  padding: 35px 28px 23px 0;
 }
 .userComment {
   /* Text / Article */
@@ -298,7 +298,7 @@
   display: flex;
   gap: 30px;
   font-family: "DM Sans", sans-serif;
-  padding-bottom: 110px;
+  margin-bottom: 110px;
 }
 .listOurTeamTags .tag {
   border-radius: 10px;
@@ -313,19 +313,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .listOurTeamTags .userPicture {
   width: 120px;
   height: 120px;
-  padding-bottom: 28.8px;
+  margin-bottom: 28.8px;
 }
 .listOurTeamTags .name {
   color: var(--Colors-Heading, #1e0e62);
   font-size: 22px;
   font-weight: 500;
   line-height: 32px; /* 145.455% */
-  padding-bottom: 16.2px;
+  margin-bottom: 16.2px;
 }
 .listOurTeamTags .position {
   color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
@@ -373,8 +373,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 28.5px; /* 158.333% */
-  padding-bottom: 23px;
-  padding-left: 12px;
+  margin-bottom: 23px;
+  margin-left: 12px;
   height: 78px;
 }
 .pageFontRoboto .btn {
@@ -414,6 +414,10 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.pageFooter .img {
+  width: 111px;
+  height: 23px;
+}
 .online {
   display: flex;
   margin: 0 auto;
@@ -422,7 +426,7 @@
   color: var(--Colors-Heading, #1e0e62);
   border-bottom: 2px solid var(--Colors-Grey, #ebeaed);
   width: 1170px;
-  padding-bottom: 31px;
+  margin-bottom: 31px;
 }
 .pageFooter .listItems {
   display: flex;
