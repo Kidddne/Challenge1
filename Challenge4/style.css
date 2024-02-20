@@ -3,8 +3,9 @@
   src: url("../Challenge4/font/AgeoTrial-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: Ageo850;
+  font-family: "Ageo850";
   src: url("../Challenge4/font/AgeoTrial-Bold.ttf") format("truetype");
+  /* src: url("../Challenge4/font/AgeoTrial-Bold.ttf") format("truetype"); */
 }
 @font-face {
   font-family: Ageo700;
@@ -118,7 +119,7 @@
   left: 660px;
 }
 .container {
-  width: 1170px;
+  width: 1173px;
   margin: 0 auto;
 }
 .pageName {
@@ -203,10 +204,8 @@
 }
 .content {
   display: flex;
-  margin: 0 auto;
   gap: 159.22px;
   margin-bottom: 146px;
-  width: 1170px;
 }
 .contentTitle {
   color: var(--Colors-Heading, #1e0e62);
