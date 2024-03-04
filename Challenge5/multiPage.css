@@ -7,6 +7,9 @@
 .blog {
   font-family: "Mulish", sans-serif;
 }
+.pricing {
+  font-family: "Mulish", sans-serif;
+}
 .tech-header {
   display: flex;
   justify-content: space-between;
@@ -107,7 +110,7 @@
 }
 .extra-content-list-item {
   display: flex;
-  gap: 26px;
+  gap: 9.43px;
   align-items: center;
 }
 .extra-content-list .description {
@@ -161,18 +164,21 @@
   font-size: 18px;
   font-weight: 600px;
   line-height: 23px;
+  margin-bottom: 34px;
 }
 .tag-name-description {
   font-size: 30px;
   font-weight: 700;
   line-height: 33px;
   color: rgba(47, 47, 47, 1);
+  margin-bottom: 10px;
 }
 .tag-detail-description {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
   color: rgba(128, 128, 128, 1);
+  margin-bottom: 34px;
 }
 .container-simpleYetPowerfulFeatures .tag-foot {
   display: flex;
@@ -239,6 +245,10 @@
 }
 .container-connectAllTheSocialNetworksYouLove .name {
   width: 517px;
+  margin-bottom: 31px;
+}
+.container-connectAllTheSocialNetworksYouLove .description {
+  margin-bottom: 31px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers {
   display: flex;
@@ -420,6 +430,9 @@
   width: 1400px;
   margin-bottom: 149px;
   padding-left: 260px;
+}
+.container-lastestNewsAndArticles .name {
+  margin-bottom: 23px;
 }
 .container-lastestNewsAndArticles .content {
   display: flex;
@@ -719,4 +732,185 @@
 .container-lastestNewsAndArticles-listTag .tag-bottom {
   display: flex;
   gap: 47px;
+}
+.container-useOption {
+  display: flex;
+  margin-left: 261px;
+  gap: 29px;
+}
+.container-useOption .tag {
+  border: 1px solid rgba(220, 220, 220, 1);
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.container-useOption .tag-popular {
+  border: 1px solid rgba(220, 220, 220, 1);
+  border-radius: 20px;
+}
+.container-useOption .typeAndDiscount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 40px 39.5px 41px 39.5px;
+}
+.btn-discountPrice {
+  padding: 14px 23px 14px 23px;
+  border-radius: 30px;
+  background-color: rgba(47, 47, 47, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  line-height: 23px;
+}
+.container-useOption .signPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: rgba(128, 128, 128, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  border-top: 1px solid rgba(220, 220, 220, 1);
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  padding: 23px 39.5px;
+}
+.textStyle-moneyPrice {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  color: rgba(47, 47, 47, 1);
+}
+.textStyle-period {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
+  color: rgba(47, 47, 47, 1);
+}
+.container-useOption .tag-body {
+  padding: 21px 39px 39px 39px;
+}
+.btn-big {
+  padding: 25px 136px 25px 136px;
+  border: 1px solid rgba(211, 211, 211, 1);
+  border-radius: 39px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+}
+.btn-big-purple {
+  color: rgba(255, 255, 255, 1);
+  padding: 25px 136px 25px 136px;
+  border-radius: 39px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  background-color: rgba(89, 86, 233, 1);
+}
+.container-useOption .benefits-list {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 39px;
+}
+.container-useOption .item {
+  display: flex;
+  gap: 15px;
+}
+.container-useOption .item-grey {
+  color: rgba(128, 128, 128, 1);
+}
+.container-100NoRisk {
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 30px;
+  padding: 43px 47px;
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-left: 260px;
+  margin-bottom: 174px;
+  margin-top: 200px;
+}
+.container-100NoRisk .main-content {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 33px;
+  margin-bottom: 12px;
+}
+.container-100NoRisk .credit {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 18px;
+}
+.container-comparePricingPackages {
+  margin-left: 260px;
+}
+.container-comparePricingPackages .name {
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.content-table {
+  border-collapse: collapse;
+  margin-bottom: 201px;
+}
+.content-table tr:first-child th:first-child {
+  border-top-left-radius: 30px;
+}
+.content-table th {
+  padding: 50px 65px;
+  border-top: 1px solid rgba(211, 211, 211, 1);
+}
+.content-table tbody td {
+  padding: 38px 65px;
+}
+.content-table td {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(121, 121, 121, 1);
+}
+.content-table tfoot td {
+  border: 1px solid rgba(211, 211, 211, 1);
+  padding: 41px 536px 51px 536px;
+  color: rgba(47, 47, 47, 1);
+}
+.container-comparePricingPackages .subheading {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(89, 86, 233, 1);
+  background-color: rgba(246, 246, 246, 1);
+}
+.container-comparePricingPackages .item {
+  border-bottom: 1px solid rgba(211, 211, 211, 1);
+  border-left: 1px solid rgba(211, 211, 211, 1);
+  border-right: 1px solid rgba(211, 211, 211, 1);
+}
+.container-comparePricingPackages .item-1 {
+  border-left: 1px solid rgba(211, 211, 211, 1);
+  border-right: 1px solid rgba(211, 211, 211, 1);
+}
+.container-comparePricingPackages .img {
+  text-align: center;
+}
+.container-comparePricingPackages .moneyPerMonth {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.container-comparePricingPackages .heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  color: rgba(36, 35, 49, 1);
+  border-top: 1px solid rgba(211, 211, 211, 1);
+  border-left: 1px solid rgba(211, 211, 211, 1);
+  border-right: 1px solid rgba(211, 211, 211, 1);
 }
