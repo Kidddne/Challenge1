@@ -1,5 +1,5 @@
-.body {
-  margin: 0;
+button {
+  cursor: pointer;
 }
 .homePage {
   font-family: "Mulish", sans-serif;
@@ -13,10 +13,10 @@
 .tech-header {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
-  width: 1720px;
+  gap: 303px;
+  margin: 0 auto;
   margin-bottom: 41px;
-  padding-left: 100px;
+  margin-top: 40px;
 }
 .tech-logo {
   display: flex;
@@ -27,9 +27,8 @@
   gap: 8px;
 }
 .tech-header-pageLists {
-  width: 633px;
   display: flex;
-  justify-content: space-between;
+  gap: 68px;
   align-items: center;
   font-size: 20px;
   font-weight: 600;
@@ -57,31 +56,33 @@
 }
 .tech-header-btnSignIn {
   border-radius: 62px;
-  border: solid 1px;
-  border-color: rgba(224, 224, 224, 1);
+  border: solid 1px rgba(224, 224, 224, 1);
   padding: 20px 42px 20px 42px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
+  width: max-content;
 }
 .homePage-clientLogo {
   display: flex;
-  margin: 0 auto;
   gap: 112px;
+  max-width: 1134.88px;
+  margin: 0 auto;
   margin-bottom: 204.32px;
-  width: 1134.88px;
 }
 .homePage-DercoImg-banner {
-  width: 1720px;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 .container-theToolThatFeelsLikeA {
   display: flex;
-  width: 1558px;
-  padding-left: 261px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+  gap: 44px;
 }
 .container-theToolThatFeelsLikeA .content {
-  padding-top: 49.5px;
+  margin-top: 49.5px;
   width: 538px;
 }
 .name {
@@ -126,14 +127,11 @@
   font-weight: 600;
   line-height: 29px;
 }
-.container-theToolThatFeelsLikeA .img {
-  width: 976px;
-}
 .container-simpleYetPowerfulFeatures {
   display: flex;
-  width: 1399px;
+  max-width: 1399px;
+  margin: 0 auto;
   flex-direction: column;
-  padding-left: 261px;
   align-items: center;
   margin-bottom: 209px;
 }
@@ -196,30 +194,30 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 29px;
+  background-color: rgba(255, 255, 255, 1);
 }
 #tag-btn-purple {
-  border: 1px;
   background-color: rgba(89, 86, 233, 1);
   color: rgba(255, 255, 255, 1);
 }
+
 .container-doingEverythingYourselfIsDifficult {
   position: relative;
-  width: 1920px;
+}
+.container-doingEverythingYourselfIsDifficult .img-banner {
+  position: relative;
+  margin-bottom: 585px;
 }
 .container-doingEverythingYourselfIsDifficult .contentAndPicture {
-  width: 1400px;
   position: absolute;
   top: 163px;
-  left: 260.5px;
+  left: 260px;
+  z-index: 1;
 }
 .container-doingEverythingYourselfIsDifficult .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 29px;
-  margin-bottom: 51px;
 }
 .container-doingEverythingYourselfIsDifficult .title {
   width: 545px;
@@ -237,14 +235,16 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .container-connectAllTheSocialNetworksYouLove {
-  margin-top: 585px;
   display: flex;
-  width: 1189px;
-  padding-left: 365px;
-  margin-bottom: 197px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.container-connectAllTheSocialNetworksYouLove .img {
+}
+.container-connectAllTheSocialNetworksYouLove .content {
+  width: 538px;
 }
 .container-connectAllTheSocialNetworksYouLove .name {
-  width: 517px;
   margin-bottom: 31px;
 }
 .container-connectAllTheSocialNetworksYouLove .description {
@@ -253,7 +253,7 @@
 .container-ourWorkingProcess-HowWeWorkForOurCustomers {
   display: flex;
   width: 1400px;
-  padding-left: 260px;
+  margin: 0 auto;
   position: relative;
   gap: 51px;
   margin-bottom: 200px;
@@ -262,7 +262,7 @@
   width: 425px;
   position: absolute;
   top: 95px;
-  left: 322px;
+  left: 62px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers .description {
   color: rgba(255, 255, 255, 1);
@@ -308,12 +308,13 @@
 }
 .container-ourHappyFamilyAndBusinessesAllOverTheWorldTrustBufferToBuildTheirBrand {
   background-color: rgba(246, 246, 246, 1);
+  max-width: 1400px;
   border-radius: 20px;
-  padding: 140px 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 260px;
+  margin: 0 auto;
+  padding: 140px 0;
   margin-bottom: 181px;
 }
 .container-ourHappyFamily {
@@ -427,9 +428,9 @@
   color: rgba(47, 47, 47, 1);
 }
 .container-lastestNewsAndArticles {
-  width: 1400px;
-  margin-bottom: 149px;
-  padding-left: 260px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 249px;
 }
 .container-lastestNewsAndArticles .name {
   margin-bottom: 23px;
@@ -509,22 +510,21 @@
   color: rgba(47, 47, 47, 1);
 }
 .container-startYour7dayFreeTrial {
-  width: 1400px;
-  position: relative;
-  padding-left: 260px;
+  display: flex;
+  justify-content: center;
 }
 .container-startYour7dayFreeTrial .content {
   width: 664.53px;
 }
 .container-startYour7dayFreeTrial .img {
   position: absolute;
-  top: 105px;
 }
 .container-startYour7dayFreeTrial .contentAndPicture {
   display: flex;
   align-items: center;
   position: relative;
   left: 70.95px;
+  top: -100px;
 }
 .container-startYour7dayFreeTrial .name {
   color: rgba(255, 255, 255, 1);
@@ -573,8 +573,9 @@
   line-height: 30px;
 }
 .tech-footer {
-  width: 1401px;
-  margin-left: 259px;
+  max-width: 1401px;
+  margin: 0 auto;
+  margin-bottom: 23px;
 }
 .logoAndBtn-seeOurCaseStudies {
   display: flex;
@@ -582,12 +583,14 @@
   justify-content: space-between;
   padding: 50px 0px;
   border-bottom: solid 1px rgba(220, 220, 220, 1);
+  border-top: solid 1px rgba(220, 220, 220, 1);
   margin-bottom: 69px;
 }
 .tech-footer .btn-seeOurCaseStudies {
   padding: 25px 38px 26px 38px;
   border: 1px solid rgba(220, 220, 220, 1);
   border-radius: 50px;
+  background-color: white;
 }
 .tech-footer .resourcesAndUtilityPages-tag {
   display: flex;
@@ -695,7 +698,6 @@
 }
 .container-banner {
   position: relative;
-  margin-left: 100px;
   margin-bottom: 200px;
 }
 .container-banner .img {
@@ -722,7 +724,7 @@
   flex-direction: column;
   width: 1402px;
   gap: 95px;
-  margin-left: 259px;
+  margin: 0 auto;
   margin-bottom: 191px;
 }
 .container-lastestNewsAndArticles-listTag .tag-top {
@@ -735,8 +737,9 @@
 }
 .container-useOption {
   display: flex;
-  margin-left: 261px;
+  justify-content: center;
   gap: 29px;
+  margin-bottom: 200px;
 }
 .container-useOption .tag {
   border: 1px solid rgba(220, 220, 220, 1);
@@ -830,9 +833,9 @@
   display: flex;
   align-items: center;
   gap: 31px;
-  margin-left: 260px;
+  max-width: 1366px;
+  margin: 0 auto;
   margin-bottom: 174px;
-  margin-top: 200px;
 }
 .container-100NoRisk .main-content {
   font-size: 30px;
@@ -847,7 +850,8 @@
   margin-top: 18px;
 }
 .container-comparePricingPackages {
-  margin-left: 260px;
+  margin: 0 auto;
+  margin-bottom: 201px;
 }
 .container-comparePricingPackages .name {
   font-family: "Nunito", sans-serif;
@@ -857,15 +861,13 @@
   text-align: center;
 }
 .content-table {
-  border-collapse: collapse;
-  margin-bottom: 201px;
-}
-.content-table tr:first-child th:first-child {
-  border-top-left-radius: 30px;
+  border: 1px solid rgba(211, 211, 211, 1);
+  margin: 0 auto;
+  border-radius: 30px;
 }
 .content-table th {
-  padding: 50px 65px;
-  border-top: 1px solid rgba(211, 211, 211, 1);
+  text-align: left;
+  padding: 50px 65px 79px 65px;
 }
 .content-table tbody td {
   padding: 38px 65px;
@@ -877,7 +879,6 @@
   color: rgba(121, 121, 121, 1);
 }
 .content-table tfoot td {
-  border: 1px solid rgba(211, 211, 211, 1);
   padding: 41px 536px 51px 536px;
   color: rgba(47, 47, 47, 1);
 }
