@@ -13,7 +13,6 @@ button {
 .tech-header {
   display: flex;
   justify-content: space-between;
-  gap: 303px;
   margin: 0 auto;
   margin-bottom: 41px;
   margin-top: 40px;
@@ -72,8 +71,8 @@ button {
   margin-bottom: 204.32px;
 }
 .homePage-DercoImg-banner {
-  max-width: 1720px;
   margin: 0 auto;
+  max-width: 100%;
 }
 .container-theToolThatFeelsLikeA {
   display: flex;
@@ -126,6 +125,7 @@ button {
   font-size: 20px;
   font-weight: 600;
   line-height: 29px;
+  border: none;
 }
 .container-simpleYetPowerfulFeatures {
   display: flex;
@@ -203,21 +203,22 @@ button {
 
 .container-doingEverythingYourselfIsDifficult {
   position: relative;
-}
-.container-doingEverythingYourselfIsDifficult .img-banner {
-  position: relative;
   margin-bottom: 585px;
 }
-.container-doingEverythingYourselfIsDifficult .contentAndPicture {
-  position: absolute;
-  top: 163px;
-  left: 260px;
-  z-index: 1;
-}
 .container-doingEverythingYourselfIsDifficult .content {
+  background-image: url(images/homepage-decor-img2-banner.svg);
+  padding: 163px 260.5px 355px 260.5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: -1;
+}
+.container-doingEverythingYourselfIsDifficult .img {
+  position: absolute;
+  top: 385px;
+  left: 260px;
+  max-width: 118vh;
 }
 .container-doingEverythingYourselfIsDifficult .title {
   width: 545px;
@@ -233,13 +234,12 @@ button {
   padding: 25px 52px 26px 52px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 1);
+  border: none;
 }
 .container-connectAllTheSocialNetworksYouLove {
   display: flex;
   margin: 0 auto;
   justify-content: center;
-}
-.container-connectAllTheSocialNetworksYouLove .img {
 }
 .container-connectAllTheSocialNetworksYouLove .content {
   width: 538px;
@@ -252,24 +252,21 @@ button {
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers {
   display: flex;
-  width: 1400px;
-  margin: 0 auto;
-  position: relative;
   gap: 51px;
+  justify-content: center;
   margin-bottom: 200px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers .content {
+  background-image: url(images/homepage-decor-img3.svg);
+  background-repeat: no-repeat;
   width: 425px;
-  position: absolute;
-  top: 95px;
-  left: 62px;
+  padding: 95px 63px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers .description {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 37px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers .name {
-  width: fit-content;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 22px;
 }
@@ -477,7 +474,7 @@ button {
 .btn-small {
   padding: 14px 35px 15px 35px;
   border-radius: 24px;
-
+  border: none;
   background-color: rgba(246, 246, 246, 1);
   box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.25);
   font-size: 18px;
@@ -535,30 +532,26 @@ button {
   margin-bottom: 30px;
 }
 .container-startYour7dayFreeTrial .textBox-enterYourEmailAndBtn-start {
-  position: relative;
-  width: 497px;
   font-size: 18px;
   font-weight: 600;
   line-height: 26px;
-}
-.container-startYour7dayFreeTrial .textBox-enterYourEmail {
-  padding: 27px 330px 27px 29px;
+  display: flex;
+  gap: 185px;
+  align-items: center;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 50px;
-  position: absolute;
+  padding: 6px 7px 6px 29px;
+  width: fit-content;
+  margin-bottom: 40px;
 }
 .container-startYour7dayFreeTrial .btn-start {
-  padding: 19px 45px 20px 45px;
-  font-size: 20px;
-  line-height: 29px;
   border-radius: 50px;
   background-color: rgba(47, 47, 47, 1);
+  padding: 19px 45px 20px 45px;
   color: rgba(255, 255, 255, 1);
-  position: relative;
-  width: fit-content;
-  top: 6px;
-  left: 352px;
-  margin-bottom: 46px;
+  font-size: 20px;
+  line-height: 29px;
+  border: none;
 }
 .container-startYour7dayFreeTrial .lists {
   display: flex;
@@ -660,7 +653,11 @@ button {
 }
 .tech-footer .tag-right {
   border-left: 1px solid rgba(100, 100, 100, 1);
-  padding: 71px 47px 0 34px;
+  padding: 0 47px 0 34px;
+  margin: 51px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .tech-footer .item {
   display: flex;
@@ -697,26 +694,21 @@ button {
   gap: 20px;
 }
 .container-banner {
-  position: relative;
   margin-bottom: 200px;
-}
-.container-banner .img {
-  position: relative;
-}
-.container-banner-content {
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  z-index: 1;
-  top: 129px;
-  left: 522px;
+  background-image: url(images/blog-decor-img-banner.svg);
+  padding: 129px 507px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.container-banner-content .description {
+.container-banner .name {
+  color: rgba(255, 255, 255, 1);
+}
+.container-banner .description {
+  margin-top: 19px;
   width: 462px;
   text-align: center;
-  margin-top: 19px;
   color: rgba(255, 255, 255, 1);
 }
 .blog .container-lastestNewsAndArticles-listTag {
@@ -749,6 +741,7 @@ button {
 .container-useOption .tag-popular {
   border: 1px solid rgba(220, 220, 220, 1);
   border-radius: 20px;
+  margin-bottom: 50px;
 }
 .container-useOption .typeAndDiscount {
   display: flex;
@@ -766,6 +759,7 @@ button {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   line-height: 23px;
+  border: none;
 }
 .container-useOption .signPrice {
   display: flex;
@@ -807,6 +801,7 @@ button {
   color: rgba(255, 255, 255, 1);
   padding: 25px 136px 25px 136px;
   border-radius: 39px;
+  border: none;
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -871,12 +866,11 @@ button {
 }
 .content-table tbody td {
   padding: 38px 65px;
-}
-.content-table td {
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
   color: rgba(121, 121, 121, 1);
+  border-bottom: 1px solid rgba(211, 211, 211, 1);
 }
 .content-table tfoot td {
   padding: 41px 536px 51px 536px;
@@ -888,15 +882,7 @@ button {
   line-height: 28px;
   color: rgba(89, 86, 233, 1);
   background-color: rgba(246, 246, 246, 1);
-}
-.container-comparePricingPackages .item {
-  border-bottom: 1px solid rgba(211, 211, 211, 1);
-  border-left: 1px solid rgba(211, 211, 211, 1);
-  border-right: 1px solid rgba(211, 211, 211, 1);
-}
-.container-comparePricingPackages .item-1 {
-  border-left: 1px solid rgba(211, 211, 211, 1);
-  border-right: 1px solid rgba(211, 211, 211, 1);
+  border: none;
 }
 .container-comparePricingPackages .img {
   text-align: center;
@@ -911,7 +897,4 @@ button {
   font-weight: 800;
   line-height: 44px;
   color: rgba(36, 35, 49, 1);
-  border-top: 1px solid rgba(211, 211, 211, 1);
-  border-left: 1px solid rgba(211, 211, 211, 1);
-  border-right: 1px solid rgba(211, 211, 211, 1);
 }
