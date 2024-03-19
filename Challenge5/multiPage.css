@@ -861,8 +861,7 @@ button {
   border-radius: 30px;
 }
 .content-table th {
-  text-align: left;
-  padding: 50px 65px 79px 65px;
+  text-align: center;
 }
 .content-table tbody td {
   padding: 38px 65px;
